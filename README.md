@@ -73,3 +73,41 @@ apache2-app  | [Wed Oct 05 10:57:20.725897 2022] [mpm_event:notice] [pid 1:tid 1
 apache2-app  | [Wed Oct 05 10:57:20.726064 2022] [core:notice] [pid 1:tid 140541628747072] AH00094: Command line: 'httpd -D FOREGROUND'
 ```
 
+Para testar, você pode ir no seu navegador e digitar "http://localhost/index.html" ou se tiver o comando curl, digitar no seu terminal "curl http://localhost/index.html".
+
+Testando no seu navegador.
+
+![](/arquivos_readme/png_teste_apache.png)
+
+Testando no seu terminal.
+
+```sh
+curl http://localhost/index.html
+```
+
+Saída do comando:
+
+```sh
+➜  docker-projeto1-dio git:(main) ✗ curl http://localhost/index.html
+<html>
+    <h1>
+        Projeto Dockerfile Bootcamp!!!
+    </h1>
+</html>
+```
+
+Parabéns, você conseguiu!!!
+
+Para parar a execução do docker compose, digite:
+
+```sh
+docker compose down -v
+```
+
+
+## Para contribuir com esse projetoex
+
+1. Faça todo passo acima. 
+2. Commit suas mudanças (`git commit -am 'Add some fooBar'`)
+3. Push sua branch (`git push origin feature/fooBar`)
+4. Crie uma nova Pull Request.
