@@ -72,3 +72,4 @@ apache2-app  | AH00558: httpd: Could not reliably determine the server's fully q
 apache2-app  | [Wed Oct 05 10:57:20.725897 2022] [mpm_event:notice] [pid 1:tid 140541628747072] AH00489: Apache/2.4.54 (Unix) configured -- resuming normal operations
 apache2-app  | [Wed Oct 05 10:57:20.726064 2022] [core:notice] [pid 1:tid 140541628747072] AH00094: Command line: 'httpd -D FOREGROUND'
 ```
+
